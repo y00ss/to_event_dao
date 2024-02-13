@@ -38,14 +38,13 @@ module {
     owner: Principal // owner of the event  
   };
 
-
-
+  // will be the order
   public type BuyTicket = {
     eventId: EventID;
     totPrice: Nat;
   };
 
-
+  // todo for check payment and return state 
   public type StatusTicketEvent = {
     // No avaiable places
     #failed : Text;

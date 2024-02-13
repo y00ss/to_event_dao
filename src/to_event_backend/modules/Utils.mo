@@ -35,12 +35,11 @@ module Utils {
       amount=1; //we will get from the order
       price=event.price;
       date = Time.now();
-      owner= ownerTicket 
+      owner= ownerTicket // the owner is the identity that make the payment
 
     };
 
     return ticket;
-
   };
 
 
