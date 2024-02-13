@@ -11,16 +11,7 @@ import Time "mo:base/Time";
 import Types "./modules/Types";
 import Utils "./modules/Utils";
 
-
-// principal "bkyz2-fmaaa-aaaaa-qaaaq-cai"
-
-// dfx canister call to_event_backend insertEvent '(record { "place" = "some place"; "description" = "some description"; "date"=  1629311227; "numSeat"= 100; "price"= 50; "owner"= principal "bkyz2-fmaaa-aaaaa-qaaaq-cai" })'
-
-
-// dfx canister call canister_id insertEvent '({ "place": "some place", "description": "some description", "date": 1629311227, "numSeat": 100, "price": 50, "owner": principal "bkyz2-fmaaa-aaaaa-qaaaq-cai" })'
-
  actor  {
-
 
   let events = Map.HashMap<Types.EventID, Types.Event>(0,  Nat.equal, Hash.hash);
 
