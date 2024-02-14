@@ -54,7 +54,7 @@ Once the job completes, application will be available at `http://localhost:4943?
     dfx canister call to_event_backend buyTicketToEvent "EVENT-ID"
   ```
 
-  We need to set ```EVENT-ID``` and after on the output we will see out ticket. 
+  We need to set ```EVENT-ID``` and after on the output we will see our ticket. 
 
 
 
