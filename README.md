@@ -8,6 +8,8 @@ First of all, I want to start by saying that this project is in early stages and
 Briefly, To_Event aims to be an event platform where users can create events and also purchase tickets for other events.
 I believe To_Event's model can work very well on ICP, especially in terms of scalability and complete decentralization of every step. (Sure there are other points, but my knowledge is still limited on ICP)
 
+Before diving into development, I conducted a brief analysis of the event industry that could benefit from blockchain technology.
+The documentation for this analysis can be found in the directory named "documentation", although it is still a work in progress.
 
 ## Running the project locally
 
